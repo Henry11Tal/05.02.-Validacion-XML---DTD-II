@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EquiposNBA [
+    <!ELEMENT EquiposNBA (equipo | nombre)*>
+
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT equipo (titulos, posicion, quinteto)>
+    
+    <!ATTLIST equipo conferencia CDATA #REQUIRED>
+    
+    <!ELEMENT titulos (#PCDATA)>
+    <!ELEMENT posicion (#PCDATA)>
+    <!ELEMENT quinteto (#PCDATA)>
+]>
+<!-- 
+Nombre: Henry Leonardo Talavera Velasquez 
+Curso: DAW1
+Fecha: 31/3/2025 
+Ejercicio: Ejercicio 1 
+-->
+<EquiposNBA>
+    <nombre></nombre>
+    <equipo conferencia="este">
+        <titulos></titulos>
+        <posicion></posicion>
+        <quinteto></quinteto>
+    </equipo>
+</EquiposNBA>
